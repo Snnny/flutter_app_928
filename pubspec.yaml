@@ -1,0 +1,107 @@
+name: flutter_app_928
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  flutter_redux: ^0.5.3
+  video_player: ^0.10.2+1
+  image_picker: ^0.6.1+4
+  fluro: "^1.5.1"
+  shared_preferences: ^0.5.3+4
+  english_words: ^3.1.5
+  pull_to_refresh: ^1.5.6
+  # 启动URL的插件 https://github.com/flutter/plugins/tree/master/packages/url_launcher
+  url_launcher: 5.1.4
+  # Toast插件 https://github.com/OpenFlutter/flutter_oktoast
+  oktoast: ^2.2.0
+  # Dart 常用工具类库 https://github.com/Sky24n/common_utils
+  common_utils: ^1.1.3
+  # 图片缓存 https://github.com/renefloor/flutter_cached_network_image
+  cached_network_image: ^1.1.1
+  # Flutter 常用工具类库 https://github.com/Sky24n/flustars
+  flustars: 0.2.6+1
+  # 格式化String https://github.com/Naddiseo/dart-sprintf
+  sprintf: ^4.0.2
+  # 屏幕适配
+  flutter_screenutil: ^0.6.0
+  # 上下滑出的抽屉 https://xbzweb.com/2019/11/06/flutter%E5%A5%BD%E7%94%A8%E7%9A%84%E8%BD%AE%E5%AD%90%E6%8E%A8%E8%8D%90%E4%B9%9D-flutter%E5%8F%AF%E5%AE%9A%E5%88%B6%E7%9A%84%E4%B8%8A%E4%B8%8B%E6%BB%91%E5%87%BA%E6%8A%BD%E5%B1%89/#%E5%89%8D%E8%A8%80
+  sliding_up_panel: ^0.3.6
+  after_layout: ^1.0.7+2
+  sticky_headers: ^0.1.8+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+  - assets/data/
+  - assets/images/
+  - assets/images/home/
+  - assets/images/store/
+  - assets/images/state/
+  - assets/images/order/
+  - assets/images/order/dark/
+  - assets/images/login/
+  - assets/images/goods/
+  - assets/images/shop/
+  - assets/images/account/
+  - assets/images/statistic/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
